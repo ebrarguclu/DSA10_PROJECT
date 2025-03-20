@@ -135,48 +135,64 @@ A busy schedule can impact social media usage and sleep.
 
 ---
 
+## Tools and Technologies
+
+To conduct this analysis, I will use the following tools:
+- **Python**: For data cleaning, preprocessing, and statistical analysis.
+- **Pandas**: To manipulate and structure the dataset.
+- **Matplotlib and Seaborn**: For data visualization (scatter plots, heatmaps, time series analysis).
+- **SciPy**: For hypothesis testing and regression analysis.
+
 ## Analysis Plan
 
-### **Data Collection**
+### Data Collection
 - Import daily records from various sources into a structured Pandas DataFrame.
-- Handle missing values and standardize data formats.
 
-### **Exploratory Data Analysis (EDA)**
+### Exploratory Data Analysis (EDA)
 - Generate scatter plots, heatmaps, and time series graphs to identify patterns and correlations.
+- Examples include:
+  - Scatter plot of social media usage vs. daily satisfaction rating.
+  - Heatmap showing correlations between social media usage, sleep quality, daily budget, and busy schedules.
+  - Time series analysis tracking social media usage over time against external factors.
 
-### **Hypothesis Testing**
-- **H₀:** External factors have no significant effect on social media usage.
-- **Hₐ:** At least one external factor significantly impacts social media usage.
+### Hypothesis Testing
+- **Example Hypothesis:**
+  - **H₀**: External factors and financial habits have no significant effect on social media usage.
+  - **Hₐ**: At least one external factor or financial habit significantly impacts social media usage.
 - Conduct correlation analysis and regression modeling to determine significant predictors.
 
-### **Trend Analysis**
-- Investigate how fluctuations in daily satisfaction, busy schedules, and major news trends impact social media usage.
+### Trend Analysis
+- Investigate how fluctuations in busy schedules, and major news trends impact social media usage.
 - Analyze seasonal patterns, such as whether lower daylight hours contribute to increased social media engagement.
 
----
+
+### Example Analysis
+- **Sleep vs. Social Media Usage**: A scatter plot with sleep duration on the x-axis and social media usage on the y-axis could reveal whether shorter sleep durations correspond with increased social media engagement.
+- **Busy Days vs. Social Media Time**: Comparing social media usage on busy vs. non-busy days may highlight the impact of schedule intensity.
+- **Breaking News Events and Usage Spikes**: Time series analysis can be used to identify whether major news events lead to temporary increases in social media usage.
 
 ## Findings and Potential Insights
 
-Potential findings may include:
-- **Daylight Length & Usage:** Shorter daylight hours may correlate with increased social media usage.
-- **Sleep Patterns:** Poor sleep quality may be associated with excessive nighttime social media use.
-- **Internet Connectivity:** Variability in internet speed may impact engagement levels.
-- **Busy Schedules:** A negative correlation may exist between high workload days and social media time.
-- **News Trends & Usage Spikes:** Increased social media activity during major events could indicate heightened digital engagement.
+Although the project is still in progress, potential findings may include:
+- **Daylight Length & Usage**: Shorter daylight hours may correlate with increased social media usage due to spending more time indoors.
+- **Sleep Patterns**: Poor sleep quality may be associated with excessive nighttime social media use.
+- **Internet Connectivity**: Variability in internet speed may impact engagement levels.
+- **Busy Schedules**: A negative correlation may exist between high workload days and social media time.
+- **News Trends & Usage Spikes**: Increased social media activity during major events could indicate heightened digital engagement driven by news consumption.
 
----
 
 ## Limitations and Future Work
 
-### **Limitations:**
-- **Data Accuracy:** Self-reported sleep quality ratings may introduce subjective bias.
-- **Correlation vs. Causation:** This study identifies correlations rather than causal relationships.
+### Limitations:
+- **Short Observation Period**: Due to the small period of observation, significant changes in factors such as daylight length may not be evident.
+- **Correlation vs. Causation**: This study primarily identifies correlations rather than causal relationships.
+- **Single Participant**: The dataset represents only my behavior and may not be generalizable to a wider population.
 
-### **Future Work:**
-- Expand sample size by including multiple participants.
-- Utilize machine learning techniques to predict social media engagement trends.
-
----
+### Future Work:
+- Conduct experiments testing behavioral interventions, such as budgeting strategies that limit social media distractions.
+- Test the hypotheses on a larger population dataset to validate findings across different demographics and digital behaviors.
+- Extend the study duration to capture seasonal variations and long-term patterns in social media usage.
 
 ## Conclusion
 This project will provide a structured, data-driven approach to understanding my social media habits and how external factors influence them. By leveraging data science techniques, I aim to develop actionable strategies to optimize digital well-being and productivity.
+
