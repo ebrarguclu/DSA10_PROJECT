@@ -1,7 +1,7 @@
 # Social Media Usage and External Influences: A Data-Driven Analysis
 
 ## Project Overview
-Over the next two months, I will analyze the relationship between my social media usage and various external factors, such as environmental conditions, daily routines, and major events. By examining elements like daylight length, sleep patterns, internet connectivity, weather conditions, air quality, busy schedules, and breaking news trends, I aim to uncover patterns that influence my digital behavior. 
+I will analyze the relationship between my social media usage and various external factors, such as environmental conditions, daily routines, and major events. By examining elements like daylight length, sleep patterns, internet connectivity, weather conditions, air quality, busy schedules, and breaking news trends, I aim to uncover patterns that influence my digital behavior. 
 
 This project will provide valuable insights into how external conditions shape social media engagement and offer strategies to reduce social media addiction while improving productivity and overall well-being.
 
